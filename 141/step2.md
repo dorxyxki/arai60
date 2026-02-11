@@ -1,5 +1,6 @@
 # 他の方の解法やディスコのログを見て解く
 
+- 走査に使用する変数名は cursor ではなく node や curr, cur, headなどが多く採用されていた．今回はnodeでも十分理解できるので node を採用することにした
 
 - そもそも id ではなくインスタンスを直接 set の要素として扱う方が良さそう
     - 過去PR: https://github.com/komdoroid/arai60/pull/8/changes
