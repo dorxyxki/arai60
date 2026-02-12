@@ -1,5 +1,6 @@
 # 10 分程度で一回もエラーを出さずに書ける状態になるまで3回続ける
 
+## 3-1
 ```py
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -26,6 +27,7 @@ class Solution:
             return from_start
 ```
 
+## 3-1
 ```py
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
