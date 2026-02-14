@@ -39,3 +39,21 @@ class Solution:
             head.next = deduplicated
             return head
 ```
+
+## 4-3
+- 4-2 のリファクタ
+
+```py
+class Solution:
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None or head.next is None:
+            return head
+        
+        deduplicated = self.deleteDuplicates(head.next)
+        
+        if head.val == head.next.val:
+            return deduplicated
+        else:
+            head.next = deduplicated
+            return head
+```
