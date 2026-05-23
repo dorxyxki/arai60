@@ -70,7 +70,7 @@ class Solution:
 
 ## 2-2
 - 積む時に反転させる(appendleft)
-    - list に戻す計算量がかかるので変わらないか
+    - queue から list に戻す計算量がかかるので変わらないか
 
 ```py
 class Solution:
